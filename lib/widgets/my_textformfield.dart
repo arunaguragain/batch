@@ -5,11 +5,11 @@ class MyTextformfield extends StatelessWidget {
     super.key,
     required this.hintText,
     required this.controller,
-    required this.labeltext,
+    required this.labelText,
     required this.errorMessage,
   });
 
-  final String labeltext;
+  final String labelText;
   final String hintText;
   final TextEditingController controller;
   final String errorMessage;
@@ -20,7 +20,7 @@ class MyTextformfield extends StatelessWidget {
       controller: controller,
       decoration: InputDecoration(
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-        labelText: labeltext,
+        labelText: labelText,
         hintText: hintText,
       ),
 
